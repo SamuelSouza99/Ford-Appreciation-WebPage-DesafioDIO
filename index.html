@@ -1,49 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" href="./assets/css/home-page-styles.css">
-  <script src="./assets/scripts/script.js"></script>
-  <title>Spider-Man | Multiversos</title>
+  
+  <script src="./assets/scripts/script.js" defer></script>
+
+  <title>Ford Appreciation WebPage</title>
 </head>
+
 <body>
-  <nav class="s-menu">
+  <!-- Header de navegação: -->
+  <nav class="s-menu"> 
     <ul>
       <li class="s-menu__item">
-        <a href="/">Página Inicial</a>
+        <a href="/">PÁGINA INICIAL</a>
       </li>
       <li class="s-menu__item">
-        <a href="#">Tobey Maguire</a>
+        <a href="./pages/SUVs/suv-mustang-e.html">SUVs</a>
       </li>
       <li class="s-menu__item s-menu__icon">
-        <img src="./assets/images/icons/spider.svg" alt="Spider-Man Multiverse">
+        <a href="https://www.ford.com.br" target="_blank"><img src="./assets/mp_images/ford-logo.png" alt="Ford Motorsports Logo"></a>
       </li>
       <li class="s-menu__item">
-        <a href="#">Tom Holland</a>
+        <a href="./pages/esportivos/esp-mustang-gt.html">ESPORTIVOS</a>
       </li>
       <li class="s-menu__item">
-        <a href="#">Andrew Garfield</a>
+        <a href="./pages/prototipos/pro-mkIV.html">PROTÓTIPOS</a>
       </li>
     </ul>
   </nav>
+
+  <!-- Carrossel: -->
   <div class="s-container">
     <div class="s-cards-carousel" style="transform: translateZ(-40vw) rotateY(0deg);">
-      <a href="./pages/tobey-maguire/spiderman1.html" class="s-card" id="spider-man-01">
-        <img class="s-card__background" src="./assets/images/pic-sm-bg-01.jpg">
-        <img class="s-card__image" src="./assets/images/spider-man-01.png" alt="Tobey Maguire">
-        <h2 class="s-card__title">Tobey Maguire</h2>
+
+      <a href="./pages/SUVs/suv-mustang-e.html" class="s-card" id="spider-man-01">
+        <img class="s-card__background" src="./assets/mp_images/mustang_mach-e_ezvolt-backgroundIMG.webp">
+        <img class="s-card__image" src="./assets/mp_images/mustang_mach-e-img.png" alt="Mustang Mach E">
+        <h2 class="s-card__title">SUVs</h2>
       </a>
-      <a href="./pages/tom-holland/spiderman1.html" class="s-card" id="spider-man-02">
-        <img class="s-card__background" src="./assets/images/pic-sm-bg-02.jpg">
-        <img class="s-card__image" src="./assets/images/spider-man-02.png" alt="Tom Holland">
-        <h2 class="s-card__title">Tom Holland</h2>
+
+      <a href="./pages/esportivos/esp-mustang-gt.html" class="s-card" id="spider-man-02">
+        <img class="s-card__background" src="./assets/mp_images/hailway-bg.jpg">
+        <img class="s-card__image" src="./assets/mp_images/FORD-MUSTANG-GT-TRASEIRA-img-.png" alt="Mustang GT">
+        <h2 class="s-card__title">Esportivos</h2>
       </a>
-      <a href="./pages/andrew-garfield/spiderman1.html" class="s-card" id="spider-man-03">
-        <img class="s-card__background" src="./assets/images/pic-sm-bg-03.jpg">
-        <img class="s-card__image" src="./assets/images/spider-man-03.png" alt="Andrew Garfield">
-        <h2 class="s-card__title">Andrew Garfield</h2>
+
+      <a href="./pages/prototipos/pro-mkIV.html" class="s-card" id="spider-man-03">
+        <img class="s-card__background" src="./assets/mp_images/ford-lemans-bg.jpeg">
+        <img class="s-card__image" src="./assets/mp_images/ford-gt-lemans-icon.png" alt="Andrew Garfield">
+        <h2 class="s-card__title">Protótipos</h2>
       </a>
     </div>
   </div>
